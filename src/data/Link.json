@@ -1,0 +1,22 @@
+[
+        {
+            "Name":"Home",
+            "NameLink":"Main"
+        },
+        {
+            "Name":"About",
+            "NameLink":"About"
+        },
+        {
+            "Name":"Skills",
+            "NameLink":"Skill"
+        },
+        {
+            "Name":"Works",
+            "NameLink":"Work"
+        },
+        {
+            "Name":"References",
+            "NameLink":"Reference"
+        }
+    ]
