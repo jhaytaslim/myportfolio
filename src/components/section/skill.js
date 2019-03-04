@@ -61,7 +61,7 @@ const Skills = (props)=>{
             languages:props.language || [],
         }
     return (
-        <Fragment id='skill'>
+        <Fragment /*id='skill'*/>
             <Fragment /*className='row skill' */>
                 <div className='ten columns '>
                     {contents.skills.map(function (skill, index) {
