@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import profile from '../assets/images/Taslim_Office1_March2019.jpg';
 
 export default class Landing extends PureComponent {
     render() {
@@ -8,7 +9,7 @@ export default class Landing extends PureComponent {
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img 
-                            src="https://curaflo.com/wp-content/uploads/2017/04/male-avatar1.png"
+                            src={profile}
                             alt="profile image"
                             className="avatar-img"
                         />
