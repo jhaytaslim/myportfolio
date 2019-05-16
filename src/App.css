@@ -9,7 +9,7 @@
   background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
-  position:fixed;
+  /* position:fixed; */
   top: 0;
   left:0;
   width:100%;
@@ -69,7 +69,7 @@
 .contact-body{
   margin:auto;
   /* background:grey; */
-  position:fixed;
+  /* position:fixed; */
   width: 100%;
   height:100%;
   justify-content: center;
@@ -110,4 +110,10 @@
 .resume-right-col{
   background: black;
   color:white;
+  padding:2em;
 }
+/* 
+.resume-right-col hr{
+  width:90%;
+  text-align: center;
+} */

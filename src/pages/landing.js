@@ -5,7 +5,7 @@ import profile from '../assets/images/Taslim_Office1_March2019.jpg';
 export default class Landing extends PureComponent {
     render() {
         return (
-            <div style={{ width: '100%', margin: 'auto', }}>
+            <div >
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img 

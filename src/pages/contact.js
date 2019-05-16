@@ -1,19 +1,21 @@
 import React, { PureComponent } from 'react';
 import { Grid, Cell , List,ListItem,ListItemContent} from 'react-mdl';
+import profile from '../assets/images/Taslim_Office1_March2019.jpg';
 
 export default class Contact extends PureComponent {
     render() {
+        const data = require("../data/resume.json");
         return (
-            <div className="contact-body">
+            <div className="contact-body" >
                 <Grid className="contact-grid">
                     <Cell col={6}>
                         <h2>Taslim ADIATU</h2>
                         <img
-                            src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+                            src={profile}
                             alt="avatar"
                             style={{ height: "250px" }}
                         />
-                        <p style={{ width: "75%", margin: 'auto', paddingTop: '1em' }}> ... a little about me.</p>
+                        <p style={{ width: "75%", margin: 'auto', paddingTop: '1em' }}>{data.basics.summary}</p>
                     </Cell>
                     <Cell col={6}>
                         <h2>Contact Me</h2>

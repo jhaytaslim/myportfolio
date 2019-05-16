@@ -12,7 +12,7 @@ class Footer extends React.PureComponent {
 
     render() {
         return (
-            <footer>
+            <footer style={{width:'100%',}}>
                 {/* <div className='row'> */}
                 <React.Fragment>
                     <div className="center-text"/*className='twelve columns'*/>

@@ -2,10 +2,11 @@
     "basics": {
         "name": "ADIATU Taslim A. (HSE)",
         "label": "Software Engineer",
-        "picture": "taslim_adiatu_pix.jpg",
+        "picture": "../assets/images/Taslim_Office1_March2019.jpg",
         "email": "taslimadiat@gmail.com",
         "phone": "+2348164240882",
-        "website": "www.pacex.org",
+        "website": "taslimadiat.pacestack.com",
+        "gitWebsite":"github.io/jhaytaslim",
         "summary": [
             
            "Conscientious, results-driven, articulate and analytical software engineer with sound years of exposure in data-driven software engineering teams; primarily focusing on backend and systems development of large-scale distributed systems. Strong in architectural research, software design and agile team management.",
@@ -69,11 +70,12 @@
     ],
     "education": [
         {
-            "institution": "<INSTITUTION_NAME>",
-            "area": "<AREA_OF_STUDY>",
-            "studyType": "<STUDY_TYPE>",
-            "startDate": "<START_DATE>",
-            "endDate": "<END_DATE>",
+            "institution": "Federal Polytechnic Ede",
+            "courseName": "Computer Engineering",
+            "faculty":"",
+            "studyType": "Diploma",
+            "startDate": "2010",
+            "endDate": "2012",
             "gpa": "<GRADE_POINT_AVERAGE>",
             "summary": "<SUMMARY>",
             "courses": [
